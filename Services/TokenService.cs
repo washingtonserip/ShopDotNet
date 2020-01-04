@@ -3,10 +3,9 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Shop;
 using Shop.Models;
 
-namespace Backoffice.Services
+namespace Shop.Services
 {
     public static class TokenService
     {
